@@ -1,0 +1,111 @@
+/* 
+#F294AD -rosado
+#80BDF2 -azul
+#9FBF7E -verde
+#F2D272 -amarillo
+#F2A172 -naranja 
+*/
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'raleway',sans-serif;
+}
+
+/*generico*/
+.contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280%;
+}
+.btn{
+    display: inline-block;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.4em;
+    border-radius: 0.3em;
+}
+.bg-img-fondo{
+    background-image: url(/img/1.jpg);
+    height: 18.75em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-transp{
+    background-color: #f294ad77;
+    padding: 1.5em 0;
+}
+.nav-logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.nav-logo img{
+    width: 2em;
+}
+.nav-menu{
+    background-color: #80bdf288;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+.link-menu{
+display: inline-block;
+text-decoration: none;
+color: white;
+font-size: 1rem;
+padding: 0.3em;
+}
+.link-menu:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.3rem;
+}
+
+.principal{
+    background-color: aquamarine;
+    margin-top: -2.5em;
+    padding: 00.3em;
+    border-radius: 0.3em;
+}
+.title-principal{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card{
+    background-color: purple;
+    overflow: hidden;
+  border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+.img-card{
+    width: 100%;
+}
+.body-card{
+    padding: 1em;
+}
+.body-card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.body-card p{
+    font-weight: 300;
+}
